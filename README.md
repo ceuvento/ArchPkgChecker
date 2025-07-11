@@ -1,6 +1,7 @@
 # Простой чекер пакетов для Arch-based дистрибутивов
 
 Проверяет наличие пакета через официальный сайт Arch и дает его описание
+
 Скрипт создан за 5 минут от нечего делать :)
 
 ## Установка:
@@ -10,17 +11,21 @@
  - pip
 
 1. Клонируйте репозиторий:
-```
-git clone https://github.com/ceuvento/ArchPkgChecker.git
-```
+ ```git
+ git clone https://github.com/ceuvento/ArchPkgChecker.git
+ ```
 2. Установите зависимости:
-```python
-    pip install -r requirements.txt
-```
+ ```python
+ pip install -r requirements.txt
+ ```
 
 ## Использование:
 
-```python pkgchecker.py```
+Команда для запуска:
+
+
+    python pkgchecker.py
+
 
 1. Выберите и напишите репозиторий для проверки
 2. Напишите название пакеты
